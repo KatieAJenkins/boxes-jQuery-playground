@@ -13,6 +13,6 @@
 
     // console.log($(".boxType1").last().hide());
 
-  console.log($("#row2").remove( ":contains('boxType')"));
+  console.log($("#row2 .box :nth-Child(2).fadeOut(1000)"));
 
   });
